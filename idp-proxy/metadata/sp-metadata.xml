@@ -4,6 +4,11 @@
         <eduidmd:RepublishRequest xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0">
             <eduidmd:RepublishTarget>http://edugain.org/</eduidmd:RepublishTarget>
         </eduidmd:RepublishRequest>
+				<mdattr:EntityAttributes>
+       		<saml:Attribute Name="http://macedir.org/entity-category" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          	<saml:AttributeValue>http://refeds.org/category/research-and-scholarship</saml:AttributeValue>
+        	</saml:Attribute>
+      	</mdattr:EntityAttributes>
     <md:/Extensions>
     <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" WantAssertionsSigned="true">
         <md:Extensions>
