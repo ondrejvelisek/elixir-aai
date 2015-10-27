@@ -1,0 +1,51 @@
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" validUntil="2015-10-28T21:27:28Z" entityID="https://engine.elixir-czech.org/authentication/idp/metadata" ID="CORTOb24b26858927ac735616ea39790ee97e833ff759">
+	<md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+		<md:Extensions>
+			<mdui:UIInfo>
+				<mdui:DisplayName xml:lang="en">OpenConext Engine</mdui:DisplayName>
+				<mdui:Description xml:lang="en">OpenConext SSO Proxy</mdui:Description>
+				<mdui:Logo height="96" width="96">
+					https://static.elixir-idp.ics.muni.cz/media/elixir-96x96.jpg
+				</mdui:Logo>
+				<mdui:Keywords xml:lang="en">openconext engine engineblock proxy sso saml2</mdui:Keywords>
+			</mdui:UIInfo>
+		</md:Extensions>
+		<md:KeyDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" use="signing">
+			<ds:KeyInfo>
+				<ds:X509Data>
+					<ds:X509Certificate>
+MIIGojCCBYqgAwIBAgIQIZm2UtNWydcC4tByWpsk8zANBgkqhkiG9w0BAQsFADBkMQswCQYDVQQGEwJOTDEWMBQGA1UECBMNTm9vcmQtSG9sbGFuZDESMBAGA1UEBxMJQW1zdGVyZGFtMQ8wDQYDVQQKEwZURVJFTkExGDAWBgNVBAMTD1RFUkVOQSBTU0wgQ0EgMjAeFw0xNTAxMjcwMDAwMDBaFw0xODAxMjYyMzU5NTlaMEQxITAfBgNVBAsTGERvbWFpbiBDb250cm9sIFZhbGlkYXRlZDEfMB0GA1UEAxMWZWxpeGlyLWlkcC5pY3MubXVuaS5jejCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOvZHvFQExMkUEJ7odKVvJT2az3NVGEiRcYE85ybWglCbJJryoBkRL9qpaCIId1lZry/SMRRFAZaAYGN0of3aCajHfKcjpQBXNfIbNQtfqfsYgr92sMeqTF+2DuK67ClZqeBKDqvk8L8CStsrEgXNslC3WxEI8svUnHZg7kQGJr/TOdhw/t4yDbwo9z32xAR2jgTg/GLASZX9QnjSNJ1fopIbERckrfJHNihpgWWcLq9aXW3c6ai/516vBX1kvcrr/SSFpndGukc16a4Y6enPLU2E7PfwESFKypOY4rnQpxgJ2GqyuOsLWZGyHSiV8pmF8n1h1Cst+8gWwhG+Np0/6sCAwEAAaOCA24wggNqMB8GA1UdIwQYMBaAFFvQihyaMlvgtd2WVBvhhiiw/ba9MB0GA1UdDgQWBBS+MtXySRHr2wXWwwd0RfZ5ZumfzTAOBgNVHQ8BAf8EBAMCBaAwDAYDVR0TAQH/BAIwADAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwIgYDVR0gBBswGTANBgsrBgEEAbIxAQICHTAIBgZngQwBAgEwOgYDVR0fBDMwMTAvoC2gK4YpaHR0cDovL2NybC51c2VydHJ1c3QuY29tL1RFUkVOQVNTTENBMi5jcmwwbAYIKwYBBQUHAQEEYDBeMDUGCCsGAQUFBzAChilodHRwOi8vY3J0LnVzZXJ0cnVzdC5jb20vVEVSRU5BU1NMQ0EyLmNydDAlBggrBgEFBQcwAYYZaHR0cDovL29jc3AudXNlcnRydXN0LmNvbTCCAhsGA1UdEQSCAhIwggIOghZlbGl4aXItaWRwLmljcy5tdW5pLmN6ghphcGkuZWxpeGlyLWlkcC5pY3MubXVuaS5jeoIbYXBpcy5lbGl4aXItaWRwLmljcy5tdW5pLmN6gh9jcnVuY2hlci5lbGl4aXItaWRwLmljcy5tdW5pLmN6ghpjc2EuZWxpeGlyLWlkcC5pY3MubXVuaS5jeoIZZGIuZWxpeGlyLWlkcC5pY3MubXVuaS5jeoIdZW5naW5lLmVsaXhpci1pZHAuaWNzLm11bmkuY3qCHmdyb3VwZXIuZWxpeGlyLWlkcC5pY3MubXVuaS5jeoIbbGRhcC5lbGl4aXItaWRwLmljcy5tdW5pLmN6gh1tYW5hZ2UuZWxpeGlyLWlkcC5pY3MubXVuaS5jeoIhbXVqaW5hLWlkcC5lbGl4aXItaWRwLmljcy5tdW5pLmN6giBtdWppbmEtc3AuZWxpeGlyLWlkcC5pY3MubXVuaS5jeoIecHJvZmlsZS5lbGl4aXItaWRwLmljcy5tdW5pLmN6giZzZXJ2aWNlcmVnaXN0cnkuZWxpeGlyLWlkcC5pY3MubXVuaS5jeoIdc3RhdGljLmVsaXhpci1pZHAuaWNzLm11bmkuY3qCHHRlYW1zLmVsaXhpci1pZHAuaWNzLm11bmkuY3qCHndlbGNvbWUuZWxpeGlyLWlkcC5pY3MubXVuaS5jejANBgkqhkiG9w0BAQsFAAOCAQEAAhVDxhEu9aCoR+LkRTKB6vIMOiq9xByFjtJSN56rX82KFgdKMOHFO4oTtRYIhBfPs16YAYFEW6jm1vo4uvCHJzN4huXyLyMFKuYnAuGoYZEYZui6iweTSoVOUlMHdLwaHybWmDJLEUR6zfxIN+zKo7/BWHXF3hskVrkaW1sWW4nh1zbxDITt70a4PSAE5UAyOpklXShAyXU4EIb6dbODJmq2o919kHP6r4zos7LceWWeBE3DvAz9xMAmae8+yGT9jW9VxSrLCBmrYno5jLao2P59mrid/dzfPmm1LvroWtGQjcg9PF661B1TeggFQEJwRS0GQfLADnHOZVNfrJB6yw==
+					</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:NameIDFormat>
+			urn:oasis:names:tc:SAML:2.0:nameid-format:persistent
+		</md:NameIDFormat>
+		<md:NameIDFormat>
+			urn:oasis:names:tc:SAML:2.0:nameid-format:transient
+		</md:NameIDFormat>
+		<md:NameIDFormat>
+			urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified
+		</md:NameIDFormat>
+		<md:NameIDFormat>
+			urn:oasis:names:tc:SAML:2.0:nameid-format:unspecified
+		</md:NameIDFormat>
+		<md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://engine.elixir-czech.org/authentication/idp/single-sign-on"/>
+	</md:IDPSSODescriptor>
+	<md:ContactPerson contactType="technical">
+		<md:GivenName>AAI support</md:GivenName>
+		<md:SurName>ELIXIR</md:SurName>
+		<md:EmailAddress>aai-contact@elixir-europe.org</md:EmailAddress>
+	</md:ContactPerson>
+	<md:ContactPerson contactType="support">
+		<md:GivenName>AAI support</md:GivenName>
+		<md:SurName>ELIXIR</md:SurName>
+		<md:EmailAddress>aai-contact@elixir-europe.org</md:EmailAddress>
+	</md:ContactPerson>
+	<md:ContactPerson contactType="administrative">
+		<md:GivenName>AAI support</md:GivenName>
+		<md:SurName>ELIXIR</md:SurName>
+		<md:EmailAddress>aai-contact@elixir-europe.org</md:EmailAddress>
+	</md:ContactPerson>
+</md:EntityDescriptor>
