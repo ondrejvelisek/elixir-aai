@@ -1,4 +1,4 @@
-<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" validUntil="2015-10-28T21:27:28Z" entityID="https://engine.elixir-czech.org/authentication/idp/metadata" ID="CORTOb24b26858927ac735616ea39790ee97e833ff759">
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" entityID="https://engine.elixir-czech.org/authentication/idp/metadata" ID="CORTOb24b26858927ac735616ea39790ee97e833ff759">
 	<md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
 		<md:Extensions>
 			<mdui:UIInfo>
