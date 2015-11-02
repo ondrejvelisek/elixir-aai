@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" entityID="https://engine.elixir-czech.org/authentication/sp/metadata" ID="CORTOabb40536a6e4f2b0e887a3ec3ae807c00f354770">
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" entityID="https://engine.elixir-czech.org/authentication/sp/metadata" ID="CORTOabb40536a6e4f2b0e887a3ec3ae807c00f354770">
     <md:Extensions>
         <eduidmd:RepublishRequest xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0">
             <eduidmd:RepublishTarget>http://edugain.org/</eduidmd:RepublishTarget>
         </eduidmd:RepublishRequest>
-	<mdattr:EntityAttributes xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute">
+	<mdattr:EntityAttributes>
        		<saml:Attribute Name="http://macedir.org/entity-category" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
-          	<saml:AttributeValue>http://refeds.org/category/research-and-scholarship</saml:AttributeValue>
+          		<saml:AttributeValue>http://refeds.org/category/research-and-scholarship</saml:AttributeValue>
         	</saml:Attribute>
       	</mdattr:EntityAttributes>
-    <md:/Extensions>
+    </md:Extensions>
     <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" WantAssertionsSigned="true">
         <md:Extensions>
             <mdui:UIInfo>
                 <mdui:DisplayName xml:lang="en">ELIXIR Services</mdui:DisplayName>
+                <mdui:DisplayName xml:lang="cs">ELIXIR Services</mdui:DisplayName>
 		<mdui:Description xml:lang="en">Services of ELIXIR, the European research infrastructure for biological information, supporting life science research and its translation to medicine, agriculture, bioindustries and society</mdui:Description>
+		<mdui:Description xml:lang="cs">Services of ELIXIR, the European research infrastructure for biological information, supporting life science research and its translation to medicine, agriculture, bioindustries and society</mdui:Description>
 		<mdui:InformationURL xml:lang="en">http://login.elixir-czech.org/</mdui:InformationURL>
+		<mdui:InformationURL xml:lang="cs">http://login.elixir-czech.org/</mdui:InformationURL>
 		<mdui:Logo height="96" width="96">https://login.elixir-czech.org/media/elixir-96x96.jpg</mdui:Logo>
             </mdui:UIInfo>
         </md:Extensions>
@@ -65,6 +68,13 @@ GtsSzA726/B+flEAviTfdsgY0QytNtOd3Uz26GUR21PH2OS+xg==</ds:X509Certificate>
             <md:RequestedAttribute FriendlyName="eduPersonTargetedID" Name="1.3.6.1.4.1.5923.1.1.1.10" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" isRequired="true"/>
         </md:AttributeConsumingService>
     </md:SPSSODescriptor>
+    <md:Organization>
+      <md:OrganizationName xml:lang="en">ELIXIR CZ</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="en">ELIXIR CZ</md:OrganizationDisplayName>
+      <md:OrganizationDisplayName xml:lang="cs">ELIXIR CZ</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="en">http://www.elixir-czech.cz</md:OrganizationURL>
+      <md:OrganizationURL xml:lang="cs">http://www.elixir-czech.cz</md:OrganizationURL>
+    </md:Organization>
     <md:ContactPerson contactType="technical">
         <md:GivenName>ELIXIR Directory</md:GivenName><md:SurName>Support</md:SurName><md:EmailAddress>elixir-directory-support@ics.muni.cz</md:EmailAddress>
     </md:ContactPerson>
