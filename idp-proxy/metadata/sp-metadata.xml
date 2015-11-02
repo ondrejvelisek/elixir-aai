@@ -13,13 +13,16 @@
     <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" WantAssertionsSigned="true">
         <md:Extensions>
             <mdui:UIInfo>
-                <mdui:DisplayName xml:lang="en">ELIXIR Services</mdui:DisplayName>
-                <mdui:DisplayName xml:lang="cs">ELIXIR Services</mdui:DisplayName>
-		<mdui:Description xml:lang="en">Services of ELIXIR, the European research infrastructure for biological information, supporting life science research and its translation to medicine, agriculture, bioindustries and society</mdui:Description>
-		<mdui:Description xml:lang="cs">Services of ELIXIR, the European research infrastructure for biological information, supporting life science research and its translation to medicine, agriculture, bioindustries and society</mdui:Description>
+                <mdui:DisplayName xml:lang="en">ELIXIR research infrastructure AAI</mdui:DisplayName>
+                <mdui:DisplayName xml:lang="cs">ELIXIR research infrastructure AAI</mdui:DisplayName>
+		<mdui:Description xml:lang="en">This service is the common gateway to the services ELIXIR
+research infrastructure provides for biological data.</mdui:Description>
+		<mdui:Description xml:lang="cs">This service is the common gateway to the services ELIXIR
+research infrastructure provides for biological data.</mdui:Description>
 		<mdui:InformationURL xml:lang="en">http://login.elixir-czech.org/</mdui:InformationURL>
 		<mdui:InformationURL xml:lang="cs">http://login.elixir-czech.org/</mdui:InformationURL>
 		<mdui:Logo height="96" width="96">https://login.elixir-czech.org/media/elixir-96x96.jpg</mdui:Logo>
+		<mdui:Keywords xml:lang="en">ELIXIR proxy biology life sciences</mdui:Keywords>
             </mdui:UIInfo>
         </md:Extensions>
         <md:KeyDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" use="signing">
